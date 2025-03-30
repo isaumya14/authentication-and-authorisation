@@ -12,5 +12,5 @@ const user= require("./routes/user");
 app.use("/api/v1",user);
 
 app.listen(PORT,()=>{
-    console.log( "successrully running  ");
+    console.log( `successrully running at ${PORT}`);
 })
